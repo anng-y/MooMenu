@@ -54,9 +54,9 @@
 		B35415432BDDEFA1005EE291 /* peanutfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153C2BDDEFA1005EE291 /* peanutfree.json */; };
 		B35415442BDDEFA1005EE291 /* vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153D2BDDEFA1005EE291 /* vegan.json */; };
 		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
-		B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415482BDDF00D005EE291 /* RecipeManager.swift */; };
 		B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154A2BDEA5BE005EE291 /* JSONParsing.swift */; };
 		B35415502BDEA5DB005EE291 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154E2BDEA5DB005EE291 /* testing.swift */; };
+		B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415532BDEBFEF005EE291 /* HeartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,9 +100,9 @@
 		B354153C2BDDEFA1005EE291 /* peanutfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = peanutfree.json; sourceTree = "<group>"; };
 		B354153D2BDDEFA1005EE291 /* vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegan.json; sourceTree = "<group>"; };
 		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
-		B35415482BDDF00D005EE291 /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		B354154A2BDEA5BE005EE291 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
 		B354154E2BDEA5DB005EE291 /* testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		B35415532BDEBFEF005EE291 /* HeartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +205,6 @@
 			isa = PBXGroup;
 			children = (
 				B354154A2BDEA5BE005EE291 /* JSONParsing.swift */,
-				B35415482BDDF00D005EE291 /* RecipeManager.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
 				076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */,
 				076EF3F22BDEBDFD00BBAACA /* ImageManager.swift */,
@@ -226,6 +225,7 @@
 		80A5496E2BDDD52E00C0E45B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B35415532BDEBFEF005EE291 /* HeartButtonView.swift */,
 				80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */,
 				076EF3DE2BDDF4C500BBAACA /* CatergoryTabView.swift */,
 				076EF3E02BDE0B9700BBAACA /* RecipeItemView.swift */,
@@ -350,6 +350,7 @@
 				B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
+				B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */,
 				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
 				80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */,
 				076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */,

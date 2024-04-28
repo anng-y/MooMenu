@@ -1,10 +1,3 @@
-//
-//  UserManager.swift
-//  MooMenu
-//
-//  Created by Ann Yip on 4/27/24.
-//
-
 import Foundation
 import FirebaseFirestore
 import FirebaseFirestoreSwift
@@ -33,5 +26,21 @@ final class UserManager {
         }
         
         return nil
+    }
+    
+    func addUserFavorite(userId: String, favorite: String) async throws {
+        let data: [String: Any] = [
+            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayUnion([favorite])
+        ]
+        
+        try await userDocument(userId: userId).updateData(data)
+    }
+    
+    func removeUserFavorite(userId: String, favorite: String) async throws {
+        let data: [String: Any] = [
+            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayRemove([favorite])
+        ]
+        
+        try await userDocument(userId: userId).updateData(data)
     }
 }
