@@ -13,6 +13,7 @@ struct HomeView: View {
     init(searchText: Binding<String> = .constant("")) {
         _searchText = searchText
     }
+    @EnvironmentObject private var viewModel: SelectViewModel
 
     
     var body: some View {
@@ -26,7 +27,6 @@ struct HomeView: View {
             
         }
         //.searchable(text: $searchText ?? .constant(""), placement: .automatic, prompt: Text("Search recipes"))
-        
     }
 }
 

@@ -20,6 +20,8 @@
 		076EF3EB2BDE97FE00BBAACA /* SelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EA2BDE97FE00BBAACA /* SelectViewModel.swift */; };
 		076EF3ED2BDE98BF00BBAACA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EC2BDE98BF00BBAACA /* RecipeModel.swift */; };
 		076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */; };
+		076EF3F12BDEBD5800BBAACA /* ListingCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3F02BDEBD5800BBAACA /* ListingCarouselView.swift */; };
+		076EF3F32BDEBDFD00BBAACA /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3F22BDEBDFD00BBAACA /* ImageManager.swift */; };
 		0770E1772BDDA4CC005602F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */; };
 		0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770E17E2BDDA9A2005602F0 /* GoogleSignInButton.swift */; };
 		0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770E1802BDDAA1B005602F0 /* LoginView.swift */; };
@@ -52,9 +54,9 @@
 		B35415432BDDEFA1005EE291 /* peanutfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153C2BDDEFA1005EE291 /* peanutfree.json */; };
 		B35415442BDDEFA1005EE291 /* vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153D2BDDEFA1005EE291 /* vegan.json */; };
 		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
-		B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415482BDDF00D005EE291 /* RecipeManager.swift */; };
 		B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154A2BDEA5BE005EE291 /* JSONParsing.swift */; };
 		B35415502BDEA5DB005EE291 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154E2BDEA5DB005EE291 /* testing.swift */; };
+		B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415532BDEBFEF005EE291 /* HeartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		076EF3EA2BDE97FE00BBAACA /* SelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewModel.swift; sourceTree = "<group>"; };
 		076EF3EC2BDE98BF00BBAACA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		076EF3F02BDEBD5800BBAACA /* ListingCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCarouselView.swift; sourceTree = "<group>"; };
+		076EF3F22BDEBDFD00BBAACA /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0770E17E2BDDA9A2005602F0 /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		0770E1802BDDAA1B005602F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -96,9 +100,9 @@
 		B354153C2BDDEFA1005EE291 /* peanutfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = peanutfree.json; sourceTree = "<group>"; };
 		B354153D2BDDEFA1005EE291 /* vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegan.json; sourceTree = "<group>"; };
 		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
-		B35415482BDDF00D005EE291 /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		B354154A2BDEA5BE005EE291 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
 		B354154E2BDEA5DB005EE291 /* testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		B35415532BDEBFEF005EE291 /* HeartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,9 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				B354154A2BDEA5BE005EE291 /* JSONParsing.swift */,
-				B35415482BDDF00D005EE291 /* RecipeManager.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
 				076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */,
+				076EF3F22BDEBDFD00BBAACA /* ImageManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -221,12 +225,14 @@
 		80A5496E2BDDD52E00C0E45B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B35415532BDEBFEF005EE291 /* HeartButtonView.swift */,
 				80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */,
 				076EF3DE2BDDF4C500BBAACA /* CatergoryTabView.swift */,
 				076EF3E02BDE0B9700BBAACA /* RecipeItemView.swift */,
 				80358E822BDDEE0800A5AA40 /* CarouselView.swift */,
 				80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */,
 				076EF3E42BDE92EA00BBAACA /* PostRecipeButton.swift */,
+				076EF3F02BDEBD5800BBAACA /* ListingCarouselView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -337,11 +343,14 @@
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				80F2268F2BDDEFEE002B6674 /* RecipeCardView.swift in Sources */,
 				07A44EE22BDDD4CD0032E86B /* SelectView.swift in Sources */,
+				076EF3F12BDEBD5800BBAACA /* ListingCarouselView.swift in Sources */,
 				076EF3E92BDE976200BBAACA /* PostRecipeViewModel.swift in Sources */,
+				076EF3F32BDEBDFD00BBAACA /* ImageManager.swift in Sources */,
 				B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */,
 				B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
+				B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */,
 				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
 				80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */,
 				076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */,

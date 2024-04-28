@@ -61,4 +61,17 @@ final class RecipeManager {
         try await recipeDocument(recipeId: recipeId).updateData(data)
     }
     
+    func getAllFavoriteRecipes(recipeIds: [String]) async throws -> [RecipeModel] {
+        var favoriteRecipes: [RecipeModel] = []
+        
+        for recipeId in recipeIds {
+            let rId = try await self.getRecipe(recipeId: recipeId)
+            if let rId = rId {
+                favoriteRecipes.append(rId)
+            }
+        }
+        
+        return favoriteRecipes
+    }
+    
 }

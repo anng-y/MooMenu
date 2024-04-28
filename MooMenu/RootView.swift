@@ -23,7 +23,6 @@ struct RootView: View {
                 }
             }
         }
-        .padding()
         .onAppear {
             let authUser = try? AuthenticationManager.shared.getAuthenticatedUser()
             self.showSignInView = authUser == nil

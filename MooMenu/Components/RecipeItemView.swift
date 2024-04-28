@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct RecipeItemView: View {
+    let recipe: RecipeModel?
     var body: some View {
         HStack (alignment: .top) {
-            Image("spaghet.png")
-                .resizable(resizingMode: .stretch)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-                .frame(width: 140, height: 140)
-            
+//            Image("spaghet.png")
+//                .resizable(resizingMode: .stretch)
+//                .clipShape(RoundedRectangle(cornerRadius: 10))
+//                .frame(width: 140, height: 140)
+//            
             // Details of SubArea
             VStack {
                 // Name, Rating, Floor, and Favorite
@@ -51,5 +52,5 @@ struct RecipeItemView: View {
 }
 
 #Preview {
-    RecipeItemView()
+    RecipeItemView(recipe: nil)
 }
