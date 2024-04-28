@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject private var viewModel: SelectViewModel
     
     var body: some View {
         VStack {
             Text("HomeView")
         }
-        
     }
 }
 
