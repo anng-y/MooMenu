@@ -118,41 +118,6 @@ func ParseRecipes(json_file: String) -> [Recipe]? {
     return nil
 }
 
-
-//func testParsing() {
-//    var recipes: [Recipe] = []
-//    if let parsedRecipes = ParseRecipes(json_file: "vegan") {
-//        recipes = parsedRecipes
-//        if let firstRecipe = recipes.first {
-//            print("This is the id \(firstRecipe.id)")
-//            print("This is the title \(firstRecipe.title)")
-//            print("Ingredients")
-//            for line in firstRecipe.ingredients {
-//                print(line)
-//            }
-//            print("Instructions")
-//            for (key, value) in firstRecipe.instructionsDict{
-//                print("Key: \(key)")
-//                print("Value: \(value)")
-//            }
-//            print("Nutrients")
-//            for (key, value) in firstRecipe.nutrientsDict{
-//                print("Key: \(key)")
-//                print("Value: \(value)")
-//            }
-//            print("Image url: \(firstRecipe.rec_image)")
-//            print("Sumary: \(firstRecipe.summary)")
-//            print("Time: \(firstRecipe.time)")
-//            
-//        } else {
-//            print("No recipe found.")
-//        }
-//    } else {
-//        print("Failed to parse recipes.")
-//    }
-//}
-
-
 struct TestParsingOutputView: View {
     let parsedRecipes = ParseRecipes(json_file: "vegan")
 
@@ -208,10 +173,3 @@ struct Content: View {
 #Preview {
     Content()
 }
-
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Content()
-//    }
-//}
