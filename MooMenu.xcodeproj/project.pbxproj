@@ -342,7 +342,6 @@
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				80F2268F2BDDEFEE002B6674 /* RecipeCardView.swift in Sources */,
 				07A44EE22BDDD4CD0032E86B /* SelectView.swift in Sources */,
-				B35415472BDDEFB5005EE291 /* Recipes.swift in Sources */,
 				076EF3E92BDE976200BBAACA /* PostRecipeViewModel.swift in Sources */,
 				B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */,
 				B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */,
