@@ -10,7 +10,6 @@ import SwiftUI
 struct PostRecipeView: View {
     var body: some View {
         VStack {
-            Form()
         }
         Text("Post Recipe View")
         // include a lot of textfields and drop downs
