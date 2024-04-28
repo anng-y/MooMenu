@@ -41,6 +41,7 @@
 		B35415442BDDEFA1005EE291 /* vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153D2BDDEFA1005EE291 /* vegan.json */; };
 		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
 		B35415472BDDEFB5005EE291 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415462BDDEFB5005EE291 /* Recipes.swift */; };
+		B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415482BDDF00D005EE291 /* RecipeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		B354153D2BDDEFA1005EE291 /* vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegan.json; sourceTree = "<group>"; };
 		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
 		B35415462BDDEFB5005EE291 /* Recipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		B35415482BDDF00D005EE291 /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		07A44ED92BDDC43C0032E86B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				B35415482BDDF00D005EE291 /* RecipeManager.swift */,
 				B35415462BDDEFB5005EE291 /* Recipes.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
 			);
@@ -283,6 +286,7 @@
 				073A22662BDD9FA200B1E4D6 /* RootView.swift in Sources */,
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				07A44EE22BDDD4CD0032E86B /* SelectView.swift in Sources */,
+				B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */,
 				B35415472BDDEFB5005EE291 /* Recipes.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
