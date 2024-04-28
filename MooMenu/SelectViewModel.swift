@@ -9,12 +9,15 @@ import Foundation
 
 @MainActor
 final class SelectViewModel: ObservableObject {
+    @Published var RecipeHash: [String: RecipeModel] = [:]
     @Published var RecipeIds: [String] = []
     
-    func loadRecipes(recipes: [RecipeModel]) async throws {
+    func loadRecipes() async throws {
+        
         let recipes = try await RecipeManager.shared.getAllRecipes()
         for recipe in recipes {
             RecipeIds.append(recipe.id)
+            RecipeHash[recipe.id] = recipe
         }
     }
     
