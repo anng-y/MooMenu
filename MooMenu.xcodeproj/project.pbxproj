@@ -52,7 +52,6 @@
 		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
 		B35415492BDDF00D005EE291 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415482BDDF00D005EE291 /* RecipeManager.swift */; };
 		B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154A2BDEA5BE005EE291 /* JSONParsing.swift */; };
-		B354154D2BDEA5BE005EE291 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154B2BDEA5BE005EE291 /* Recipes.swift */; };
 		B35415502BDEA5DB005EE291 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154E2BDEA5DB005EE291 /* testing.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,7 +94,6 @@
 		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
 		B35415482BDDF00D005EE291 /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		B354154A2BDEA5BE005EE291 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
-		B354154B2BDEA5BE005EE291 /* Recipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipes.swift; path = "../../../MooMenu local/MooMenu/Managers/Recipes.swift"; sourceTree = "<group>"; };
 		B354154E2BDEA5DB005EE291 /* testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +142,6 @@
 				B354153C2BDDEFA1005EE291 /* peanutfree.json */,
 				B354153D2BDDEFA1005EE291 /* vegan.json */,
 				B354153E2BDDEFA1005EE291 /* vegetarian.json */,
-				B354153F2BDDEFA1005EE291 /* Resources */,
 				80A5496E2BDDD52E00C0E45B /* Components */,
 				073A22632BDD9FA200B1E4D6 /* MooMenuApp.swift */,
 				0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */,
@@ -198,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				B354154A2BDEA5BE005EE291 /* JSONParsing.swift */,
-				B354154B2BDEA5BE005EE291 /* Recipes.swift */,
 				B35415482BDDF00D005EE291 /* RecipeManager.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
 				076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */,
@@ -227,13 +223,6 @@
 				076EF3E42BDE92EA00BBAACA /* PostRecipeButton.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		B354153F2BDDEFA1005EE291 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		B354154F2BDEA5DB005EE291 /* test */ = {
@@ -360,7 +349,6 @@
 				076EF3D42BDDE21000BBAACA /* UserViewModel.swift in Sources */,
 				07A44EE42BDDD5E60032E86B /* FavoriteView.swift in Sources */,
 				0770E1892BDDAAA8005602F0 /* Utilities.swift in Sources */,
-				B354154D2BDEA5BE005EE291 /* Recipes.swift in Sources */,
 				07A44ED32BDDAC900032E86B /* UserModel.swift in Sources */,
 				07A44ED52BDDACE50032E86B /* UserManager.swift in Sources */,
 				07A44EE62BDDD5F00032E86B /* ProfileView.swift in Sources */,
