@@ -11,7 +11,7 @@ struct RecipeModel: Codable {
     let id: String
     let images: [String]?
     let title: String
-    let timeDone: Int
+    let timeDone: String
     let summary: String
     let isVegan: Bool
     let isVegetarian: Bool
@@ -22,7 +22,7 @@ struct RecipeModel: Codable {
     let ingredients: [String]
     let instructions: [String]
     
-    init(id: String, images: [String]?, title: String, timeDone: Int, summary: String, isVegan: Bool, isVegetarian: Bool, isDairyFree: Bool, isGlutenFree: Bool, isNutFree: Bool, isEggFree: Bool, ingredients: [String], instructions: [String]) {
+    init(id: String, images: [String]?, title: String, timeDone: String, summary: String, isVegan: Bool, isVegetarian: Bool, isDairyFree: Bool, isGlutenFree: Bool, isNutFree: Bool, isEggFree: Bool, ingredients: [String], instructions: [String]) {
         self.id = id
         self.images = images
         self.title = title
@@ -76,7 +76,7 @@ struct RecipeModel: Codable {
         self.id = try container.decode(String.self, forKey: .id)
         self.images = try container.decodeIfPresent([String].self, forKey: .images)
         self.title = try container.decode(String.self, forKey: .title)
-        self.timeDone = try container.decode(Int.self, forKey: .timeDone)
+        self.timeDone = try container.decode(String.self, forKey: .timeDone)
         self.summary = try container.decode(String.self, forKey: .summary)
         self.isVegan = try container.decode(Bool.self, forKey: .isVegan)
         self.isVegetarian = try container.decode(Bool.self, forKey: .isVegetarian)
