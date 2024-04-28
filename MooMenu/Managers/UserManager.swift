@@ -28,19 +28,19 @@ final class UserManager {
         return nil
     }
     
-    func addUserFavorite(userId: String, favorite: String) async throws {
-        let data: [String: Any] = [
-            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayUnion([favorite])
-        ]
-        
-        try await userDocument(userId: userId).updateData(data)
-    }
-    
-    func removeUserFavorite(userId: String, favorite: String) async throws {
-        let data: [String: Any] = [
-            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayRemove([favorite])
-        ]
-        
-        try await userDocument(userId: userId).updateData(data)
-    }
+//    func addUserFavorite(userId: String, favorite: String) async throws {
+//        let data: [String: Any] = [
+//            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayUnion([favorite])
+//        ]
+//        
+//        try await userDocument(userId: userId).updateData(data)
+//    }
+//    
+//    func removeUserFavorite(userId: String, favorite: String) async throws {
+//        let data: [String: Any] = [
+//            UserModel.CodingKeys.favorites.stringValue: FieldValue.arrayRemove([favorite])
+//        ]
+//        
+//        try await userDocument(userId: userId).updateData(data)
+//    }
 }

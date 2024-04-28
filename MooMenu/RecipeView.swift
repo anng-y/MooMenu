@@ -25,8 +25,6 @@ struct RecipeView: View {
                     .foregroundStyle(Color.gray)
                     .italic()
                 
-                HeartButtonView(recipeId: recipe?.id).environmentObject(userViewModel)
-                
                 // Attribute boxes
                 Text("Dietary Considerations:")
                     .font(.title2)
