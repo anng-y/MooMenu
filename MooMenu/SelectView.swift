@@ -19,12 +19,6 @@ struct SelectView: View {
                 }
                 .environmentObject(viewModel)
                 .environmentObject(userViewModel)
-            FavoriteView()
-                .tabItem {
-                    Label("Favorite", systemImage: "heart")
-                }
-                .environmentObject(viewModel)
-                .environmentObject(userViewModel)
             ProfileView(showSignInView: $showSignInView)
                 .tabItem {
                     Label("Profile", systemImage: "person")
