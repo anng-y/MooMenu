@@ -56,7 +56,7 @@ struct RecipeView: View {
                 }
                 
                 // Time to finish the recipe text
-                Text("Time to finish: \(recipe?.timeDone ?? 30) minutes")
+                Text("Time to finish: \(recipe?.timeDone ?? "30") minutes")
                     .font(.system(size:18))
                     .foregroundColor(.secondary)
                     .italic()
@@ -115,7 +115,7 @@ struct AttributeBox: View {
         id: "1",
         images: ["image1.jpg", "image2.jpg"],
         title: "Spaghetti Carbonara",
-        timeDone: 30,
+        timeDone: "30",
         summary: "A classic Italian pasta dish made with eggs, cheese, bacon, and black pepper.",
         isVegan: false,
         isVegetarian: false,

@@ -10,9 +10,9 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 
 @MainActor
-final class PostViewModel: ObservableObject {
+final class PostRecipeViewModel: ObservableObject {
     
-    func addNewRecipe(title: String, summary: String, timeDone: Int, isVegan: Bool, isVegetarian: Bool,  isDairyFree: Bool, isGlutenFree: Bool, isNutFree: Bool, isEggFree: Bool,ingredients: [String], instructions: [String]) async throws {
+    func addNewRecipe(title: String, summary: String, timeDone: String, isVegan: Bool, isVegetarian: Bool,  isDairyFree: Bool, isGlutenFree: Bool, isNutFree: Bool, isEggFree: Bool,ingredients: [String], instructions: [String]) async throws {
         // Initialize area values
         let recipeId = RecipeManager.shared.getDocumentId()
         let images: [String]? = []
