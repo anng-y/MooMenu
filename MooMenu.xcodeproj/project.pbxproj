@@ -14,6 +14,12 @@
 		076EF3D42BDDE21000BBAACA /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3D32BDDE21000BBAACA /* UserViewModel.swift */; };
 		076EF3DF2BDDF4C500BBAACA /* CatergoryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3DE2BDDF4C500BBAACA /* CatergoryTabView.swift */; };
 		076EF3E12BDE0B9700BBAACA /* RecipeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3E02BDE0B9700BBAACA /* RecipeItemView.swift */; };
+		076EF3E32BDE92C600BBAACA /* PostRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3E22BDE92C600BBAACA /* PostRecipeView.swift */; };
+		076EF3E52BDE92EA00BBAACA /* PostRecipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3E42BDE92EA00BBAACA /* PostRecipeButton.swift */; };
+		076EF3E92BDE976200BBAACA /* PostRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3E82BDE976200BBAACA /* PostRecipeViewModel.swift */; };
+		076EF3EB2BDE97FE00BBAACA /* SelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EA2BDE97FE00BBAACA /* SelectViewModel.swift */; };
+		076EF3ED2BDE98BF00BBAACA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EC2BDE98BF00BBAACA /* RecipeModel.swift */; };
+		076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */; };
 		0770E1772BDDA4CC005602F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */; };
 		0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770E17E2BDDA9A2005602F0 /* GoogleSignInButton.swift */; };
 		0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770E1802BDDAA1B005602F0 /* LoginView.swift */; };
@@ -37,6 +43,8 @@
 		80A24CD72BDDE9D500C5467E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 80A24CD62BDDE9D500C5467E /* GoogleSignIn */; };
 		80A24CD92BDDE9D500C5467E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80A24CD82BDDE9D500C5467E /* GoogleSignInSwift */; };
 		80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */; };
+		80D6588E2BDE1040003DD900 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6588D2BDE1040003DD900 /* SearchView.swift */; };
+		80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6588F2BDEA1BB003DD900 /* RecipeView.swift */; };
 		80F2268F2BDDEFEE002B6674 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */; };
 		B35415402BDDEFA1005EE291 /* dairyfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B35415392BDDEFA1005EE291 /* dairyfree.json */; };
 		B35415412BDDEFA1005EE291 /* eggfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153A2BDDEFA1005EE291 /* eggfree.json */; };
@@ -45,8 +53,8 @@
 		B35415442BDDEFA1005EE291 /* vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153D2BDDEFA1005EE291 /* vegan.json */; };
 		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
 		B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154A2BDEA5BE005EE291 /* JSONParsing.swift */; };
-		B354154D2BDEA5BE005EE291 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154B2BDEA5BE005EE291 /* Recipes.swift */; };
 		B35415502BDEA5DB005EE291 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354154E2BDEA5DB005EE291 /* testing.swift */; };
+		B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415532BDEBFEF005EE291 /* HeartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +66,12 @@
 		076EF3D32BDDE21000BBAACA /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		076EF3DE2BDDF4C500BBAACA /* CatergoryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatergoryTabView.swift; sourceTree = "<group>"; };
 		076EF3E02BDE0B9700BBAACA /* RecipeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItemView.swift; sourceTree = "<group>"; };
+		076EF3E22BDE92C600BBAACA /* PostRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecipeView.swift; sourceTree = "<group>"; };
+		076EF3E42BDE92EA00BBAACA /* PostRecipeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecipeButton.swift; sourceTree = "<group>"; };
+		076EF3E82BDE976200BBAACA /* PostRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecipeViewModel.swift; sourceTree = "<group>"; };
+		076EF3EA2BDE97FE00BBAACA /* SelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewModel.swift; sourceTree = "<group>"; };
+		076EF3EC2BDE98BF00BBAACA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0770E17E2BDDA9A2005602F0 /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		0770E1802BDDAA1B005602F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -73,6 +87,8 @@
 		07A44EE52BDDD5F00032E86B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		80358E822BDDEE0800A5AA40 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		80D6588D2BDE1040003DD900 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		80D6588F2BDEA1BB003DD900 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		B35415392BDDEFA1005EE291 /* dairyfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dairyfree.json; sourceTree = "<group>"; };
 		B354153A2BDDEFA1005EE291 /* eggfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eggfree.json; sourceTree = "<group>"; };
@@ -81,8 +97,8 @@
 		B354153D2BDDEFA1005EE291 /* vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegan.json; sourceTree = "<group>"; };
 		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
 		B354154A2BDEA5BE005EE291 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
-		B354154B2BDEA5BE005EE291 /* Recipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipes.swift; path = "../../../MooMenu local/MooMenu/Managers/Recipes.swift"; sourceTree = "<group>"; };
 		B354154E2BDEA5DB005EE291 /* testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		B35415532BDEBFEF005EE291 /* HeartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,15 +146,18 @@
 				B354153C2BDDEFA1005EE291 /* peanutfree.json */,
 				B354153D2BDDEFA1005EE291 /* vegan.json */,
 				B354153E2BDDEFA1005EE291 /* vegetarian.json */,
-				B354153F2BDDEFA1005EE291 /* Resources */,
 				80A5496E2BDDD52E00C0E45B /* Components */,
 				073A22632BDD9FA200B1E4D6 /* MooMenuApp.swift */,
 				0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */,
 				073A22652BDD9FA200B1E4D6 /* RootView.swift */,
 				07A44EE12BDDD4CD0032E86B /* SelectView.swift */,
+				076EF3EA2BDE97FE00BBAACA /* SelectViewModel.swift */,
+				076EF3E62BDE973E00BBAACA /* PostRecipe */,
 				07A44EE32BDDD5E60032E86B /* FavoriteView.swift */,
 				07A44ED62BDDBACA0032E86B /* HomeView.swift */,
 				07A44EE52BDDD5F00032E86B /* ProfileView.swift */,
+				80D6588D2BDE1040003DD900 /* SearchView.swift */,
+				80D6588F2BDEA1BB003DD900 /* RecipeView.swift */,
 				073A22672BDD9FA500B1E4D6 /* Assets.xcassets */,
 				07A44ED82BDDC4180032E86B /* Login */,
 				073A22692BDD9FA500B1E4D6 /* Preview Content */,
@@ -157,6 +176,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		076EF3E62BDE973E00BBAACA /* PostRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				076EF3E22BDE92C600BBAACA /* PostRecipeView.swift */,
+				076EF3E82BDE976200BBAACA /* PostRecipeViewModel.swift */,
+			);
+			path = PostRecipe;
+			sourceTree = "<group>";
+		};
 		07A44ED82BDDC4180032E86B /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				B354154A2BDEA5BE005EE291 /* JSONParsing.swift */,
-				B354154B2BDEA5BE005EE291 /* Recipes.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
+				076EF3EE2BDE9BCC00BBAACA /* RecipeManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -184,6 +212,7 @@
 			children = (
 				07A44ED22BDDAC900032E86B /* UserModel.swift */,
 				076EF3D32BDDE21000BBAACA /* UserViewModel.swift */,
+				076EF3EC2BDE98BF00BBAACA /* RecipeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,20 +220,15 @@
 		80A5496E2BDDD52E00C0E45B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B35415532BDEBFEF005EE291 /* HeartButtonView.swift */,
 				80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */,
 				076EF3DE2BDDF4C500BBAACA /* CatergoryTabView.swift */,
 				076EF3E02BDE0B9700BBAACA /* RecipeItemView.swift */,
 				80358E822BDDEE0800A5AA40 /* CarouselView.swift */,
 				80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */,
+				076EF3E42BDE92EA00BBAACA /* PostRecipeButton.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		B354153F2BDDEFA1005EE291 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		B354154F2BDEA5DB005EE291 /* test */ = {
@@ -306,17 +330,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076EF3EB2BDE97FE00BBAACA /* SelectViewModel.swift in Sources */,
+				076EF3E32BDE92C600BBAACA /* PostRecipeView.swift in Sources */,
 				073A22662BDD9FA200B1E4D6 /* RootView.swift in Sources */,
+				076EF3ED2BDE98BF00BBAACA /* RecipeModel.swift in Sources */,
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				80F2268F2BDDEFEE002B6674 /* RecipeCardView.swift in Sources */,
 				07A44EE22BDDD4CD0032E86B /* SelectView.swift in Sources */,
+				076EF3E92BDE976200BBAACA /* PostRecipeViewModel.swift in Sources */,
 				B354154C2BDEA5BE005EE291 /* JSONParsing.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
+				B35415542BDEBFEF005EE291 /* HeartButtonView.swift in Sources */,
 				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
+				80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */,
+				076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */,
 				076EF3DF2BDDF4C500BBAACA /* CatergoryTabView.swift in Sources */,
 				0770E1832BDDAA25005602F0 /* LoginViewModel.swift in Sources */,
+				80D6588E2BDE1040003DD900 /* SearchView.swift in Sources */,
 				80358E832BDDEE0800A5AA40 /* CarouselView.swift in Sources */,
+				076EF3E52BDE92EA00BBAACA /* PostRecipeButton.swift in Sources */,
 				07A44ED72BDDBACA0032E86B /* HomeView.swift in Sources */,
 				0770E1852BDDAA48005602F0 /* SignInGoogleHelper.swift in Sources */,
 				B35415502BDEA5DB005EE291 /* testing.swift in Sources */,
@@ -324,7 +357,6 @@
 				076EF3D42BDDE21000BBAACA /* UserViewModel.swift in Sources */,
 				07A44EE42BDDD5E60032E86B /* FavoriteView.swift in Sources */,
 				0770E1892BDDAAA8005602F0 /* Utilities.swift in Sources */,
-				B354154D2BDEA5BE005EE291 /* Recipes.swift in Sources */,
 				07A44ED32BDDAC900032E86B /* UserModel.swift in Sources */,
 				07A44ED52BDDACE50032E86B /* UserManager.swift in Sources */,
 				07A44EE62BDDD5F00032E86B /* ProfileView.swift in Sources */,
