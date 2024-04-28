@@ -11,10 +11,9 @@ struct SearchBar: View {
     @Binding var searchText: String
 
     var body: some View {
-        NavigationStack {
-        }
-        .searchable(text: $searchText, placement: .automatic, prompt: Text("Search recipes"))
-        .padding(.horizontal)
+        TextField("Search recipes", text: $searchText)
+            
+        
     }
 }
 
