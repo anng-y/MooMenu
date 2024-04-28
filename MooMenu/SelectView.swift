@@ -9,21 +9,27 @@ import SwiftUI
 
 struct SelectView: View {
     @Binding var showSignInView: Bool
-    @StateObject var userViewModel = UserViewModel()
+    @StateObject private var viewModel: SelectViewModel = SelectViewModel()
+    @StateObject private var userViewModel = UserViewModel()
     var body: some View {
         TabView {
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+                .environmentObject(viewModel)
+                .environmentObject(userViewModel)
             FavoriteView()
                 .tabItem {
                     Label("Favorite", systemImage: "heart")
                 }
+                .environmentObject(viewModel)
+                .environmentObject(userViewModel)
             ProfileView(showSignInView: $showSignInView)
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
+                .environmentObject(viewModel)
                 .environmentObject(userViewModel)
         }
         .task {

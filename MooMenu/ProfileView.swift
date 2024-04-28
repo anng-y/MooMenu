@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ProfileView: View {
 
-    
     @Binding var showSignInView: Bool
     @EnvironmentObject var userViewModel: UserViewModel
     
@@ -68,9 +67,10 @@ struct ProfileView: View {
                     .padding(.leading, 16)
                     Spacer()
                 }
-                Spacer()
             }
             Divider()
+            PostRecipeButton()
+            Spacer()
         }
     }
 }
