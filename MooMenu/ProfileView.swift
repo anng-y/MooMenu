@@ -70,6 +70,7 @@ struct ProfileView: View {
                 }
                 Spacer()
             }
+            Divider()
         }
     }
 }
