@@ -9,13 +9,14 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @Binding var showSignInView: Bool
-    
     var body: some View {
-        Text("HomeView")
+        VStack {
+            Text("HomeView")
+        }
+        
     }
 }
 
 #Preview {
-    HomeView(showSignInView: .constant(false))
+    HomeView()
 }

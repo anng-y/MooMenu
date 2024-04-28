@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SelectView: View {
+    @Binding var showSignInView: Bool
+    @StateObject var userViewModel = UserViewModel()
     var body: some View {
         TabView {
             HomeView()
@@ -18,13 +20,20 @@ struct SelectView: View {
                 .tabItem {
                     Label("Favorite", systemImage: "heart")
                 }
-            ProfileView()
+            ProfileView(showSignInView: $showSignInView)
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
+                .environmentObject(userViewModel)
         }
+        .task {
+            try? await userViewModel.loadUser()
+            // set user to selectViewModel when user gets loaded
+            //viewModel.setUserId(userId: userViewModel.user?.userId)
+        }
+    }
 }
 
 #Preview {
-    SelectView()
+    SelectView(showSignInView: .constant(false))
 }
