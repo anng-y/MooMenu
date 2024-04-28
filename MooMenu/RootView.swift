@@ -15,7 +15,7 @@ struct RootView: View {
         ZStack {
             if !showSignInView {
                 NavigationStack {
-                    HomeView(showSignInView: $showSignInView)
+                    SelectView(showSignInView: $showSignInView)
                 }
                 .background {
                     Color(.white)
