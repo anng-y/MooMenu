@@ -15,10 +15,14 @@ struct CarouselView: View {
     var body: some View {
         VStack {
             TabView(selection: $index) {
-                
+                ForEach((0..<3), id: \.self) { index in
+                    RecipeCardView(imageName: "spaghet.png", recipeName: "Example recipe name")
+                }
             }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
         }
-        .frame(height:200)
+        
+        .frame(height: 300)
     }
 }
 
