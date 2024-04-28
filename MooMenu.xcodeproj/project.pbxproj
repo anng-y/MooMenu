@@ -43,6 +43,8 @@
 		80A24CD72BDDE9D500C5467E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 80A24CD62BDDE9D500C5467E /* GoogleSignIn */; };
 		80A24CD92BDDE9D500C5467E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80A24CD82BDDE9D500C5467E /* GoogleSignInSwift */; };
 		80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */; };
+		80D6588E2BDE1040003DD900 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6588D2BDE1040003DD900 /* SearchView.swift */; };
+		80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6588F2BDEA1BB003DD900 /* RecipeView.swift */; };
 		80F2268F2BDDEFEE002B6674 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */; };
 		B35415402BDDEFA1005EE291 /* dairyfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B35415392BDDEFA1005EE291 /* dairyfree.json */; };
 		B35415412BDDEFA1005EE291 /* eggfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153A2BDDEFA1005EE291 /* eggfree.json */; };
@@ -85,6 +87,8 @@
 		07A44EE52BDDD5F00032E86B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		80358E822BDDEE0800A5AA40 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		80D6588D2BDE1040003DD900 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		80D6588F2BDEA1BB003DD900 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		80F2268E2BDDEFEE002B6674 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		B35415392BDDEFA1005EE291 /* dairyfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dairyfree.json; sourceTree = "<group>"; };
 		B354153A2BDDEFA1005EE291 /* eggfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eggfree.json; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				07A44EE32BDDD5E60032E86B /* FavoriteView.swift */,
 				07A44ED62BDDBACA0032E86B /* HomeView.swift */,
 				07A44EE52BDDD5F00032E86B /* ProfileView.swift */,
+				80D6588D2BDE1040003DD900 /* SearchView.swift */,
+				80D6588F2BDEA1BB003DD900 /* RecipeView.swift */,
 				073A22672BDD9FA500B1E4D6 /* Assets.xcassets */,
 				07A44ED82BDDC4180032E86B /* Login */,
 				073A22692BDD9FA500B1E4D6 /* Preview Content */,
@@ -337,9 +343,11 @@
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
 				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
+				80D658902BDEA1BB003DD900 /* RecipeView.swift in Sources */,
 				076EF3EF2BDE9BCC00BBAACA /* RecipeManager.swift in Sources */,
 				076EF3DF2BDDF4C500BBAACA /* CatergoryTabView.swift in Sources */,
 				0770E1832BDDAA25005602F0 /* LoginViewModel.swift in Sources */,
+				80D6588E2BDE1040003DD900 /* SearchView.swift in Sources */,
 				80358E832BDDEE0800A5AA40 /* CarouselView.swift in Sources */,
 				076EF3E52BDE92EA00BBAACA /* PostRecipeButton.swift in Sources */,
 				07A44ED72BDDBACA0032E86B /* HomeView.swift in Sources */,
