@@ -13,7 +13,7 @@ struct UserModel: Codable {
     let name: String?
     let photoUrl: String?
     //let dateCreated: Date?
-    let favorites: [String]
+    let recipeList: [String]
     let admin: Bool?
     
     // Initialize User from the Result of Google Sign In
@@ -23,7 +23,7 @@ struct UserModel: Codable {
         self.email = auth.email
         self.photoUrl = auth.photoUrl
         //self.dateCreated = Date()
-        self.favorites = []
+        self.recipeList = []
         self.admin = false
     }
     
@@ -32,7 +32,7 @@ struct UserModel: Codable {
         case email
         case name
         case photoUrl
-        case favorites
+        case recipeList
         case admin
     }
     
@@ -42,7 +42,7 @@ struct UserModel: Codable {
         self.email = try container.decodeIfPresent(String.self, forKey: .email)
         self.name = try container.decodeIfPresent(String.self, forKey: .name)
         self.photoUrl = try container.decodeIfPresent(String.self, forKey: .photoUrl)
-        self.favorites = try container.decode([String].self, forKey: .favorites)
+        self.recipeList = try container.decode([String].self, forKey: .recipeList)
         self.admin = try container.decodeIfPresent(Bool.self, forKey: .admin)
     }
     
@@ -52,7 +52,7 @@ struct UserModel: Codable {
         try container.encodeIfPresent(self.email, forKey: .email)
         try container.encodeIfPresent(self.name, forKey: .name)
         try container.encodeIfPresent(self.photoUrl, forKey: .photoUrl)
-        try container.encode(self.favorites, forKey: .favorites)
+        try container.encode(self.recipeList, forKey: .recipeList)
         try container.encodeIfPresent(self.admin, forKey: .admin)
     }
 }
