@@ -34,6 +34,13 @@
 		07A44EE42BDDD5E60032E86B /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44EE32BDDD5E60032E86B /* FavoriteView.swift */; };
 		07A44EE62BDDD5F00032E86B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44EE52BDDD5F00032E86B /* ProfileView.swift */; };
 		80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */; };
+		B35415402BDDEFA1005EE291 /* dairyfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B35415392BDDEFA1005EE291 /* dairyfree.json */; };
+		B35415412BDDEFA1005EE291 /* eggfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153A2BDDEFA1005EE291 /* eggfree.json */; };
+		B35415422BDDEFA1005EE291 /* glutenfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153B2BDDEFA1005EE291 /* glutenfree.json */; };
+		B35415432BDDEFA1005EE291 /* peanutfree.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153C2BDDEFA1005EE291 /* peanutfree.json */; };
+		B35415442BDDEFA1005EE291 /* vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153D2BDDEFA1005EE291 /* vegan.json */; };
+		B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */ = {isa = PBXBuildFile; fileRef = B354153E2BDDEFA1005EE291 /* vegetarian.json */; };
+		B35415472BDDEFB5005EE291 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35415462BDDEFB5005EE291 /* Recipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +64,13 @@
 		07A44EE32BDDD5E60032E86B /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		07A44EE52BDDD5F00032E86B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		B35415392BDDEFA1005EE291 /* dairyfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dairyfree.json; sourceTree = "<group>"; };
+		B354153A2BDDEFA1005EE291 /* eggfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eggfree.json; sourceTree = "<group>"; };
+		B354153B2BDDEFA1005EE291 /* glutenfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glutenfree.json; sourceTree = "<group>"; };
+		B354153C2BDDEFA1005EE291 /* peanutfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = peanutfree.json; sourceTree = "<group>"; };
+		B354153D2BDDEFA1005EE291 /* vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegan.json; sourceTree = "<group>"; };
+		B354153E2BDDEFA1005EE291 /* vegetarian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetarian.json; sourceTree = "<group>"; };
+		B35415462BDDEFB5005EE291 /* Recipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 		073A22622BDD9FA200B1E4D6 /* MooMenu */ = {
 			isa = PBXGroup;
 			children = (
+				B354153F2BDDEFA1005EE291 /* Resources */,
 				80A5496E2BDDD52E00C0E45B /* Components */,
 				073A22632BDD9FA200B1E4D6 /* MooMenuApp.swift */,
 				0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */,
@@ -138,6 +153,7 @@
 		07A44ED92BDDC43C0032E86B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				B35415462BDDEFB5005EE291 /* Recipes.swift */,
 				07A44ED42BDDACE50032E86B /* UserManager.swift */,
 			);
 			path = Managers;
@@ -158,6 +174,19 @@
 				80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B354153F2BDDEFA1005EE291 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B35415392BDDEFA1005EE291 /* dairyfree.json */,
+				B354153A2BDDEFA1005EE291 /* eggfree.json */,
+				B354153B2BDDEFA1005EE291 /* glutenfree.json */,
+				B354153C2BDDEFA1005EE291 /* peanutfree.json */,
+				B354153D2BDDEFA1005EE291 /* vegan.json */,
+				B354153E2BDDEFA1005EE291 /* vegetarian.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35415422BDDEFA1005EE291 /* glutenfree.json in Resources */,
 				073A226B2BDD9FA500B1E4D6 /* Preview Assets.xcassets in Resources */,
+				B35415402BDDEFA1005EE291 /* dairyfree.json in Resources */,
+				B35415442BDDEFA1005EE291 /* vegan.json in Resources */,
+				B35415432BDDEFA1005EE291 /* peanutfree.json in Resources */,
 				073A22682BDD9FA500B1E4D6 /* Assets.xcassets in Resources */,
+				B35415412BDDEFA1005EE291 /* eggfree.json in Resources */,
+				B35415452BDDEFA1005EE291 /* vegetarian.json in Resources */,
 				0770E1772BDDA4CC005602F0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +283,7 @@
 				073A22662BDD9FA200B1E4D6 /* RootView.swift in Sources */,
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				07A44EE22BDDD4CD0032E86B /* SelectView.swift in Sources */,
+				B35415472BDDEFB5005EE291 /* Recipes.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
 				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
