@@ -11,7 +11,9 @@ struct RecipeCardView: View {
     var imageName: String // Name of the image to use
     var recipeName: String // Name of the recipe
     
+    
     var body: some View {
+        // Overlayed image with text
         ZStack {
             Image(imageName)
                 .resizable()
