@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Binding var searchText: String
+    
+    init(searchText: Binding<String> = .constant("")) {
+        _searchText = searchText
+    }
     @EnvironmentObject private var viewModel: SelectViewModel
+
     
     var body: some View {
-        VStack {
-            Text("HomeView")
+        ScrollView {
+            //Home section
+            Text("Home")
+                .font(.title)
+                .fontWeight(.bold)
+            
+            
+            
         }
+        //.searchable(text: $searchText ?? .constant(""), placement: .automatic, prompt: Text("Search recipes"))
     }
 }
 
