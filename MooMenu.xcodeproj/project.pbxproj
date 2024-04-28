@@ -29,6 +29,7 @@
 		07A44ED32BDDAC900032E86B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44ED22BDDAC900032E86B /* UserModel.swift */; };
 		07A44ED52BDDACE50032E86B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44ED42BDDACE50032E86B /* UserManager.swift */; };
 		07A44ED72BDDBACA0032E86B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A44ED62BDDBACA0032E86B /* HomeView.swift */; };
+		80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		07A44ED22BDDAC900032E86B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		07A44ED42BDDACE50032E86B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		07A44ED62BDDBACA0032E86B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		073A22622BDD9FA200B1E4D6 /* MooMenu */ = {
 			isa = PBXGroup;
 			children = (
+				80A5496E2BDDD52E00C0E45B /* Components */,
 				073A22632BDD9FA200B1E4D6 /* MooMenuApp.swift */,
 				0770E1762BDDA4CC005602F0 /* GoogleService-Info.plist */,
 				073A22652BDD9FA200B1E4D6 /* RootView.swift */,
@@ -135,6 +138,14 @@
 				07A44ED22BDDAC900032E86B /* UserModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		80A5496E2BDDD52E00C0E45B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				80A5496F2BDDD53B00C0E45B /* SearchBarView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 				0770E17F2BDDA9A3005602F0 /* GoogleSignInButton.swift in Sources */,
 				0770E1872BDDAA61005602F0 /* AuthenticationManager.swift in Sources */,
 				0770E1812BDDAA1B005602F0 /* LoginView.swift in Sources */,
+				80A549702BDDD53B00C0E45B /* SearchBarView.swift in Sources */,
 				0770E1832BDDAA25005602F0 /* LoginViewModel.swift in Sources */,
 				07A44ED72BDDBACA0032E86B /* HomeView.swift in Sources */,
 				0770E1852BDDAA48005602F0 /* SignInGoogleHelper.swift in Sources */,
