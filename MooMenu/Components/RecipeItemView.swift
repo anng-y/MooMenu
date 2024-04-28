@@ -23,9 +23,9 @@ struct RecipeItemView: View {
                 HStack(alignment: .center) {
                     // Area name and Time Range
                     VStack (alignment: .leading, spacing: 4) {
-                        Text("Recipe name")
+                        Text(recipe?.title ?? "Recipe name")
                             .font(.custom("Futura", size: 25))
-                        Text("Time until ready")
+                        Text("\(recipe?.timeDone ?? "Some") minutes")
                     }
                     .font(.footnote)
                     Spacer()
